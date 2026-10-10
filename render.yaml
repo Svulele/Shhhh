@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: shhhh-study-demo
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/
+    autoDeployTrigger: commit

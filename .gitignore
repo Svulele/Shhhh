@@ -1,0 +1,11 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+**/venv/
+**/__pycache__/
+**/node_modules/
+**/dist/
+**/.vite/
+backend/uploads/
+backend/db/
